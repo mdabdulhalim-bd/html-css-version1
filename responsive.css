@@ -1,0 +1,345 @@
+@media screen and (max-width: 570px) {
+
+    /* common css */
+
+    .btn {
+        border-radius: 30px;
+        padding: 10px 10px;
+        border: 1px solid gainsboro;
+
+    }
+
+    a {
+        text-decoration: none;
+        color: #000;
+        font-weight: 600;
+    }
+
+    .bg-btn {
+        background-color: #000;
+        color: #fff;
+    }
+
+    /* Common css end  */
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+
+        & .logo {
+            & img {
+                width: 120px;
+                height: auto;
+                cursor: pointer;
+            }
+        }
+
+        & .menu {
+            display: none;
+        }
+
+        & .actions {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            font-size: 18;
+
+            & .web-icon {
+                font-size: 1rem;
+                cursor: pointer;
+                transition: transform 0.3s ease;
+            }
+
+            .web-icon:hover {
+                transform: scale(1.2);
+            }
+
+        }
+    }
+
+    .banner-section {
+        & img {
+            width: 100%;
+            height: auto;
+        }
+
+        & .find-offer {
+            max-width: 300px;
+            height: auto;
+            margin: 0 auto;
+           
+            border-radius: 15px;
+            border-radius: 1x solid gray;
+            padding: 30px 20px;
+
+            & h1 {
+                font-size: 24px;
+                color: #000;
+                text-align: center;
+            }
+
+            & .options {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+
+                & div {
+                    background-color: #fff;
+                    padding: 10px 5px;
+                    /* max-width: 18%; */
+                    border-radius: 8px;
+                    background-color: hsla(0, 0%, 93%, 1);
+
+                    & #Currency {
+                        width: 100%;
+                        padding: 0 20px;
+                        font-size: 1rem;
+                        outline: none;
+                        border: none;
+                        background-color: hsla(0, 0%, 93%, 1);
+                    }
+                }
+            }
+
+            .search-btn {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                margin-top: 10px;
+                padding: 1px 5px;
+                gap: 10px;
+                color: #fff;
+
+                & button {
+                    width: 100%;
+                    padding: 10px 3px;
+                    font-size: 1rem;
+                    background-color: hsla(0, 0%, 93%, 1);
+                    border: none;
+                    border-radius: 8px;
+                    cursor: pointer;
+                }
+
+
+            }
+
+
+        }
+        & .zappar-btn {
+           
+            border: 1px solid gray;
+            border-radius: 30px;
+            padding: 6px 30px;
+            width: 10rem;
+            margin: 0 auto;
+            text-align: center;
+    
+            & button {
+                border: transparent;
+                outline: none;
+                font-size: 1.2rem;
+                background-color: transparent;
+                cursor: pointer;
+                text-decoration: underline;
+                color: black;
+            }
+    
+        }
+        margin-bottom: 20px;
+    }
+
+    /* Brand CSS Start  */
+.brands {
+    background-color: hsla(51, 98%, 65%, 1);
+    padding: 20px 70px;
+
+    & .brand-heading {
+        & h1 {
+
+            text-align: center;
+            padding: 20px 0;
+            font-size: 1.5rem;
+        }
+
+        & img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+    }
+}
+
+/* Start Features Section */
+.features-section {
+    padding: 30px 0;
+
+    & .feature-contents {
+        & h1 {
+            font-size: 1.5rem;
+            text-align: center;
+        }
+    }
+
+    & .feature-cards {
+        position: relative;
+        margin: 0 auto;
+        padding: 20px 0;
+
+        & .single-feature {
+            text-align: center;
+            padding: 20px;
+            line-height: 20px;
+            background-color: hsla(0, 0%, 93%, 1);
+            margin: 10px 0;
+            border-radius: 8px;
+
+            & p {
+                margin: 20px 0;
+                color: hsla(0, 0%, 32%, 1);
+            }
+
+            & p a {
+                font-weight: bold;
+                color: #000;
+                text-decoration: underline;
+
+            }
+
+        }
+
+        & .line1 {
+            display: none;
+        }
+
+        & .line2 {
+           display: none;
+        }
+
+        & .features-btn {
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            
+            border: 1px solid #000;
+            border-radius: 30px;
+            padding: 6px 10px;
+            text-align: center;
+
+            & button {
+                border: transparent;
+                outline: none;
+                font-size: 22px;
+                background-color: transparent;
+                cursor: pointer;
+
+            }
+        }
+    }
+}
+
+
+/* Buy section  */
+.buy-and-sell{
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    margin-top: 50px;
+    & h2{
+        text-align: center;
+    }
+}
+.card-container{
+    display: flex;
+    flex-direction: column;
+    & .left, .right{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+}
+
+.buy-card{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1rem;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 4px;
+}
+
+.getstarted-btn {
+    
+    border-radius: 20px;
+    padding: 8px 20px;
+    text-align: center;
+    background-color: #000;
+    margin: 0 auto;
+    margin-bottom: 10px;
+
+    & button {
+        border: transparent;
+        outline: none;
+        font-size: 1rem;
+        background-color: transparent;
+        color: #fff;
+        cursor: pointer;
+       
+
+    }
+}
+.getstartted {
+    background-color: hsla(258, 100%, 86%, 1);
+    padding: 10px 50px;
+
+    & h1 {
+        font-size: 2rem;
+        text-align: center;
+        
+    }
+
+}
+
+/* Start Footer Section */
+.footer-section {
+    background-color: #000;
+    display: flex;
+    padding: 50px 0;
+    text-align: center; /*dfdfdf*/
+
+    & .footer {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+        & .footer-menu {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /*dfdfdf*/
+            gap: 15px;
+            color: #fff;
+
+            & a {
+                color: #fff;
+            }
+
+            & p {
+                font-size: 22px;
+            }
+        }
+    }
+}
+
+.footer-bottom {
+    background-color: #000;
+    padding: 30px 20px;
+    color: #fff;
+    font-size: 12px;
+    border-top: 2px solid #fff;
+}
+
+
+}
